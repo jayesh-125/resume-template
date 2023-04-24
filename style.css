@@ -1,0 +1,79 @@
+.sidebar img {
+    width: 200px;
+    height: 200px;
+}
+#x{
+    width: 100%;
+}
+.sidebar {
+    justify-content: center;
+}
+
+.content {
+    padding: 2rem;
+    height: 100vh;
+    overflow-y: scroll;
+    border: 0;
+}
+
+.abc {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:560px) {
+    .pf {
+        height: 210px;
+        overflow-x: scroll;
+    }
+    #x{
+        font-size: 12px;
+    }
+    .abc {
+        width: 150px;
+        height: 150px;
+        overflow: visible;
+    }
+
+    .card-group {
+        height: 350px;
+        overflow: scroll;
+    }
+
+    .tgg {
+        height: 100vh;
+        position: absolute;
+        width: 33%;
+        z-index: 1;
+    }
+
+    .sidebar img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .content {
+        padding-top: 0%;padding-bottom: 0%;padding-right: 0%;
+        padding-left: 33%;
+    }
+}
+
+#main {
+    border-left: dotted 5px black;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 0 10px 0 10px;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 5px black;
+}
